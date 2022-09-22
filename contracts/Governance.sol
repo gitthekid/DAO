@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol";
 import "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol";
 import "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol";
 
-// NOTE: Contract created with the help of --> https://wizard.openzeppelin.com/#governor
+// Contract created with the help of --> https://wizard.openzeppelin.com/#governor
 
 contract Governance is
     Governor,
@@ -26,7 +26,7 @@ contract Governance is
         uint256 _votingDelay,
         uint256 _votingPeriod
     )
-        Governor("DApp University DAO")
+        Governor("Marc's DAO")
         GovernorVotes(_token)
         GovernorVotesQuorumFraction(_quorum)
         GovernorTimelockControl(_timelock)
